@@ -1,0 +1,43 @@
+.clubs-container {
+  text-align: center;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+.clubs-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.club-card {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.club-card:hover {
+  transform: scale(1.05);
+}
+
+.club-card img {
+  max-width: 60px;
+  height: auto;
+}
+
+.club-card h2 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.club-card p {
+  color: #666;
+}
