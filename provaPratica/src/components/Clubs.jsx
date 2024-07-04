@@ -17,9 +17,6 @@ const Clubs = () => {
 
   return (
     <div className="clubs-container">
-      <header>
-        <h1>Nome do Aluno - Turma XYZ</h1>
-      </header>
       <div className="clubs-list">
         {clubs.map(club => (
           <div key={club.id} className="club-card">
